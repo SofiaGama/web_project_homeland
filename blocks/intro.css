@@ -1,0 +1,131 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 148px;
+}
+
+.intro__image {
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+}
+
+.intro__location {
+  max-width: 830px;
+  width: 100%;
+}
+
+.intro__title {
+  margin: 0;
+  max-width: 830px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #fff;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 92px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.intro__paragraph {
+  color: #fff;
+  max-width: 737.78px;
+  width: 100%;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.intro__author {
+  margin: 0;
+  height: 34px;
+  padding-bottom: 32px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fff;
+}
+
+.intro__text {
+  width: 100%;
+  margin: 0;
+  max-width: 721.74px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    display: flex;
+    align-items: center;
+  }
+  .intro__location {
+    max-width: 720px;
+    width: 90%;
+    padding-inline: 24px;
+  }
+  .intro__image {
+    max-width: 768px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    width: 100%;
+    padding-bottom: 58px;
+  }
+}
+
+@media (max-width: 720px) {
+  .intro__location {
+    max-width: 288px;
+    width: 100%;
+    margin: 0;
+    padding-inline: 16px;
+  }
+
+  .intro__image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    width: 90%;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .intro__paragraph {
+    line-height: 30px;
+  }
+
+  .intro__text {
+    line-height: 26px;
+  }
+}
