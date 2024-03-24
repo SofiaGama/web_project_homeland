@@ -49,6 +49,7 @@
 }
 
 .intro__author {
+  max-width: 732px;
   margin: 0;
   height: 34px;
   padding-bottom: 32px;

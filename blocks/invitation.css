@@ -1,4 +1,4 @@
-.cover {
+.invitation {
   background-image: linear-gradient(
       rgba(42, 44, 47, 0.3),
       rgba(42, 44, 47, 0.3)
@@ -11,13 +11,17 @@
   justify-content: center;
   text-align: center;
   max-width: 1184px;
+<<<<<<< HEAD:blocks/cover.css
   max-height: 740px;
+=======
+  min-height: 740px;
+>>>>>>> 3fecbb7 (alteracao links nft):blocks/invitation.css
   width: 100%;
   height: 100%;
   margin-top: 92px;
 }
 
-.cover:hover {
+.invitation:hover {
   background-image: linear-gradient(
       rgba(42, 44, 47, 0.8),
       rgba(42, 44, 47, 0.8)
@@ -25,7 +29,7 @@
     url("../images/__backgroundimage.jpg");
 }
 
-.cover__visit {
+.invitation__visit {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +37,7 @@
   padding: 243px, 264px;
 }
 
-.cover__title {
+.invitation__title {
   margin: 0;
   color: #fff;
   font-family: Inter;
@@ -43,7 +47,7 @@
   letter-spacing: 0em;
 }
 
-.cover__text {
+.invitation__text {
   max-width: 280px;
   width: 100%;
   height: 66px;
@@ -54,7 +58,7 @@
   line-height: 22px;
 }
 
-.cover__frame {
+.invitation__frame {
   max-width: 285px;
   max-height: 48px;
   width: 100%;
@@ -73,29 +77,29 @@
   padding: 13px 20px;
 }
 
-.cover__span-accent {
+.invitation__span-accent {
   display: block;
 }
 
 @media (max-width: 1024px) {
-  .cover__visit {
+  .invitation__visit {
     padding: 246px 56px;
   }
 }
 
 @media (max-width: 720px) {
-  .cover {
+  .invitation {
     width: 100%;
     height: 100%;
     margin-top: 25px;
   }
 
-  .cover__visit {
+  .invitation__visit {
     padding: 45px 16px;
     align-items: center;
   }
 
-  .cover__title {
+  .invitation__title {
     font-weight: 900;
     font-size: 32px;
     text-align: center;
@@ -103,7 +107,7 @@
     line-height: 35px;
   }
 
-  .cover__text {
+  .invitation__text {
     max-width: 280px;
     width: 100%;
     max-height: 90%;
@@ -116,7 +120,7 @@
     margin: 16px 20px 20px 16px;
   }
 
-  .cover__frame {
+  .invitation__frame {
     width: 191px;
     gap: 10px;
     padding: 13px 20px;
