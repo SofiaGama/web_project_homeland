@@ -14,7 +14,7 @@
 
 .places__name {
   grid-area: name;
-  font-family: Inter;
+  font-family: inherit;
   text-align: left;
   color: #fff;
   width: 100%;
@@ -42,15 +42,15 @@
 .places__url-heading {
   color: #aaaaaa;
   line-height: 15px;
-  font-family: Inter;
-  font-size: 12;
+  font-family: inherit;
+  font-size: 12px;
   font-weight: 400;
   text-align: left;
   letter-spacing: 0.12em;
 }
 
 .places__artist {
-  font-family: Inter;
+  font-family: inherit;
   color: #fff;
   text-align: left;
   font-weight: 400;
@@ -73,7 +73,7 @@
   height: 100;
   display: flex;
   flex-direction: column;
-  font-family: Inter;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18;
   line-height: 29px;
@@ -95,7 +95,7 @@
   max-width: 285px;
   max-height: 48px;
   width: 100%;
-  font-family: Inter;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -139,7 +139,7 @@
   .places {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
-      "place"
+      "name"
       "author"
       "photo"
       "text"
@@ -157,6 +157,7 @@
     margin-inline: 16px;
     font-size: 32px;
     line-height: 35px;
+    text-align: left;
   }
 
   .places__url-heading {
