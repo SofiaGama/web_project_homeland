@@ -151,6 +151,7 @@
   }
 
   .places__name {
+    grid-area: name;
     max-width: 288px;
     width: 100%;
     margin-right: 0;
